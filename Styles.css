@@ -31,7 +31,7 @@ body 	{
 	nav 	{
 			background-color:#BC04BF;
 			height: 100px;
-			border: inset;
+			/*border: inset;*/
 			border-width: medium;
 			border-color: black;
 			
@@ -39,24 +39,26 @@ body 	{
 
 	main 	{
 			background-color:#D5C7D9;
-			width: 100%;
+			color: #0D0D0D;
+			/*width: 100%;
 			margin-right:20px;
 			margin-left: 0px;
-			color: #0D0D0D;
+			
 			padding-top: 2px;
 			padding-right: 2px;
 			padding-bottom: 0px;
 			padding-left: 2px;
-			float:left;
+			float:left;*/
 			}
-	/*aside 	{
+	aside 	{
+			position: absolute;
+			top:400px;
+			right:200px;
 			background-color:#ECDFDF;
-			border: inset;
-			border-width: medium;
-			border-color: black;
-			width: 25%;
 			float: right;
-			}*/
+			
+		
+			}
 	
 	
 	footer  {
@@ -65,6 +67,7 @@ body 	{
 			text-align: center;
 			color: #0D0D0D;
 			font-weight: bold;
+			background-color: #EE05F2;
   
 		
 			font-size: 20px;
@@ -89,6 +92,20 @@ body 	{
 			color: #000000;
 			text-emphasis: strong;
 			}
+a:link  {
+		color:#0D0D0D;
+	
+		}
+a:visited {
+	color: #0D0D0D;
+			}
+a:hover {
+	color:#EE05F2;
+	background-color: #0D0D0D;
+		}
+a:active {
+		color: #0D0D0D;
+		}
     nav ul  {
 			list-style-type: none;
 			margin: 0;
@@ -97,7 +114,7 @@ body 	{
 			font-size: 30px;
 			
 			}
-	li a 	{
+	nav li a 	{
 			display: inline;
 			float: left;
 			padding-bottom: 10px;
@@ -105,7 +122,7 @@ body 	{
 		
 			
 			}
-	a:link  {
+	nav a:link  {
 			text-decoration: none;
 			background-color:#000000;
 			padding-right: 60px;
@@ -113,19 +130,20 @@ body 	{
 			text-align: center;
 			color:#F7F7F7;
 			}
-	a:visited
+	nav a:visited
 			{
 			color:#F7F7F7;
 			}
-	a:hover {
+	nav a:hover {
 			background-color:#710273;
 			color:#fdfdfd;
 			text-decoration: underline;
 			}
 	
-	a:active{
+	nav a:active{
 			color:#0D0D0D;
 			}
+ 
 .dropdown	{
 			float: left;
 			overflow: hidden;
